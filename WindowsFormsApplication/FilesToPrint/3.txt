@@ -1,0 +1,18 @@
+			 Név: Lionel Messi		Dátum: 2016.09.25 - 2016.09.26
+
+
+
+
+		Gyógyszer neve		Dátum		Napszak		Mennyiség
+
+
+		Durex			2016-09-25	REGGEL		1
+		HepatitisContradulis	2016-09-25	DÉL		2
+		Klotrimazol		2016-09-25	DÉL		1
+		Durex			2016-09-26	REGGEL		1
+		HepatitisContradulis	2016-09-26	DÉL		2
+
+
+
+
+					 Végösszeg: 18,59 LEI

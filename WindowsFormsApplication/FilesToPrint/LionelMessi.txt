@@ -1,0 +1,18 @@
+			 Név: Lionel Messi	Dátum: 2016.09.25 - 2016.09.26
+
+
+
+
+			Pelenka				Dátum		Mennyiség
+
+
+			ExtraPlus			2016-09-25	1
+			SemiLarge			2016-09-25	2
+			SemiMedium			2016-09-25	2
+			ExtraPlus			2016-09-26	1
+			SemiLarge			2016-09-26	2
+
+
+
+
+					 Végösszeg: 33,80 LEI

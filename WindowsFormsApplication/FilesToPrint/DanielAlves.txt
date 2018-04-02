@@ -1,0 +1,16 @@
+			 Név: Daniel Alves		Dátum: 2016.09.02 - 2016.09.30
+
+
+
+
+		Gyógyszer neve		Dátum		Napszak		Mennyiség
+
+
+		Durex			2016-09-28	REGGEL		6
+		Durex			2016-09-29	REGGEL		3,5
+		Durex			2016-09-30	REGGEL		2,5
+
+
+
+
+					 Végösszeg: 33,09 LEI

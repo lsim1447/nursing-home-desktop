@@ -1,0 +1,305 @@
+﻿namespace VersenyekSQL
+{
+    partial class Storage
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.storageDGV = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.medicineNameCB = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.priceTB = new System.Windows.Forms.TextBox();
+            this.addBTN = new System.Windows.Forms.Button();
+            this.backBTN = new System.Windows.Forms.Button();
+            this.deleteBTN = new System.Windows.Forms.Button();
+            this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.rectangleShape2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.nrOfPack = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.storageDGV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nrOfPack)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // storageDGV
+            // 
+            this.storageDGV.BackgroundColor = System.Drawing.SystemColors.Desktop;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.storageDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.storageDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.storageDGV.DefaultCellStyle = dataGridViewCellStyle2;
+            this.storageDGV.Location = new System.Drawing.Point(571, 147);
+            this.storageDGV.MultiSelect = false;
+            this.storageDGV.Name = "storageDGV";
+            this.storageDGV.ReadOnly = true;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.storageDGV.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.storageDGV.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.storageDGV.Size = new System.Drawing.Size(741, 466);
+            this.storageDGV.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.DarkKhaki;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(738, 97);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(427, 39);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Raktáron lévő gyógyszerek";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.DarkKhaki;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(59, 204);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(435, 38);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Gyógyszer raktár feltöltése";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.LightGray;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(46, 284);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(203, 29);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Gyógyszer neve:";
+            // 
+            // medicineNameCB
+            // 
+            this.medicineNameCB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.medicineNameCB.FormattingEnabled = true;
+            this.medicineNameCB.Location = new System.Drawing.Point(267, 284);
+            this.medicineNameCB.Name = "medicineNameCB";
+            this.medicineNameCB.Size = new System.Drawing.Size(236, 28);
+            this.medicineNameCB.TabIndex = 4;
+            this.medicineNameCB.MouseEnter += new System.EventHandler(this.gyogyszerNevCB_MouseEnter);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.LightGray;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(46, 352);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(203, 29);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Dobozok száma:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.LightGray;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(45, 423);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(202, 29);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "Ár/doboz (LEI):   ";
+            // 
+            // priceTB
+            // 
+            this.priceTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.95F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.priceTB.Location = new System.Drawing.Point(266, 423);
+            this.priceTB.Name = "priceTB";
+            this.priceTB.Size = new System.Drawing.Size(237, 29);
+            this.priceTB.TabIndex = 8;
+            this.priceTB.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // addBTN
+            // 
+            this.addBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.addBTN.Location = new System.Drawing.Point(408, 482);
+            this.addBTN.Name = "addBTN";
+            this.addBTN.Size = new System.Drawing.Size(95, 30);
+            this.addBTN.TabIndex = 9;
+            this.addBTN.Text = "Hozzáad";
+            this.addBTN.UseVisualStyleBackColor = true;
+            this.addBTN.Click += new System.EventHandler(this.hozzaadBTN_Click);
+            this.addBTN.MouseEnter += new System.EventHandler(this.hozzaadBTN_MouseEnter);
+            this.addBTN.MouseLeave += new System.EventHandler(this.hozzaadBTN_MouseLeave);
+            // 
+            // backBTN
+            // 
+            this.backBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.backBTN.Location = new System.Drawing.Point(582, 703);
+            this.backBTN.Name = "backBTN";
+            this.backBTN.Size = new System.Drawing.Size(265, 44);
+            this.backBTN.TabIndex = 10;
+            this.backBTN.Text = "Vissza a főmenübe";
+            this.backBTN.UseVisualStyleBackColor = true;
+            this.backBTN.Click += new System.EventHandler(this.button1_Click);
+            this.backBTN.MouseEnter += new System.EventHandler(this.button1_MouseEnter);
+            this.backBTN.MouseLeave += new System.EventHandler(this.button1_MouseLeave);
+            // 
+            // deleteBTN
+            // 
+            this.deleteBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.deleteBTN.Location = new System.Drawing.Point(1204, 635);
+            this.deleteBTN.Name = "deleteBTN";
+            this.deleteBTN.Size = new System.Drawing.Size(106, 34);
+            this.deleteBTN.TabIndex = 12;
+            this.deleteBTN.Text = "Törlés";
+            this.deleteBTN.UseVisualStyleBackColor = true;
+            this.deleteBTN.Click += new System.EventHandler(this.torlesBTN_Click);
+            this.deleteBTN.MouseEnter += new System.EventHandler(this.torlesBTN_MouseEnter);
+            this.deleteBTN.MouseLeave += new System.EventHandler(this.torlesBTN_MouseLeave);
+            // 
+            // shapeContainer1
+            // 
+            this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
+            this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
+            this.shapeContainer1.Name = "shapeContainer1";
+            this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.rectangleShape2,
+            this.rectangleShape1});
+            this.shapeContainer1.Size = new System.Drawing.Size(1322, 733);
+            this.shapeContainer1.TabIndex = 13;
+            this.shapeContainer1.TabStop = false;
+            // 
+            // rectangleShape2
+            // 
+            this.rectangleShape2.BackgroundImage = global::VersenyekSQL.Properties.Resources.blackBGR;
+            this.rectangleShape2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.rectangleShape2.BorderColor = System.Drawing.Color.LightGray;
+            this.rectangleShape2.BorderWidth = 5;
+            this.rectangleShape2.CornerRadius = 10;
+            this.rectangleShape2.Location = new System.Drawing.Point(568, 83);
+            this.rectangleShape2.Name = "rectangleShape2";
+            this.rectangleShape2.Size = new System.Drawing.Size(746, 532);
+            // 
+            // rectangleShape1
+            // 
+            this.rectangleShape1.BackgroundImage = global::VersenyekSQL.Properties.Resources.blackBGR;
+            this.rectangleShape1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.rectangleShape1.BorderColor = System.Drawing.Color.LightGray;
+            this.rectangleShape1.BorderWidth = 5;
+            this.rectangleShape1.CornerRadius = 20;
+            this.rectangleShape1.Location = new System.Drawing.Point(11, 167);
+            this.rectangleShape1.Name = "rectangleShape1";
+            this.rectangleShape1.Size = new System.Drawing.Size(533, 374);
+            // 
+            // nrOfPack
+            // 
+            this.nrOfPack.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nrOfPack.Location = new System.Drawing.Point(267, 352);
+            this.nrOfPack.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nrOfPack.Name = "nrOfPack";
+            this.nrOfPack.Size = new System.Drawing.Size(236, 29);
+            this.nrOfPack.TabIndex = 14;
+            this.nrOfPack.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.nrOfPack.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // Storage
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::VersenyekSQL.Properties.Resources.abstract_green_by_michalius89_d72jx3r;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1322, 733);
+            this.Controls.Add(this.nrOfPack);
+            this.Controls.Add(this.deleteBTN);
+            this.Controls.Add(this.backBTN);
+            this.Controls.Add(this.addBTN);
+            this.Controls.Add(this.priceTB);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.medicineNameCB);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.storageDGV);
+            this.Controls.Add(this.shapeContainer1);
+            this.Name = "Storage";
+            this.Text = "Storage";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.storageDGV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nrOfPack)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView storageDGV;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox medicineNameCB;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox priceTB;
+        private System.Windows.Forms.Button addBTN;
+        private System.Windows.Forms.Button backBTN;
+        private System.Windows.Forms.Button deleteBTN;
+        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape1;
+        private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape2;
+        private System.Windows.Forms.NumericUpDown nrOfPack;
+    }
+}
